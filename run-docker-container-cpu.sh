@@ -4,7 +4,7 @@ set -e
 
 # Settings from environment
 CONTAINER_NAME="Advaced-DL-With-Keras"
-DOCKER_IMAGE="ksjdk/deep-learning:all-py36-opencv341-cpu"
+DOCKER_IMAGE="ksjdk/deep-learning:all-py36-keras-theano-cpu"
 
 # Check if container exist
 if [ "$(docker ps -a | grep ${CONTAINER_NAME})" ]; then
